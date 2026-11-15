@@ -1,0 +1,51 @@
+# 臺北市長民調（只放結構化數字；規則見 CLAUDE.md 第 3 節）
+city: taipei
+polls:
+  - published: 2026-11-05
+    fieldwork: 2026-11-01 ~ 2026-11-03
+    pollster: ETtoday民調雲
+    sponsor: 東森民調雲股份有限公司
+    sponsor_type: 媒體
+    method: 封閉式網路問卷（手機簡訊、EDM 通知）
+    sample: 1853
+    moe: 2.28
+    results: {沈伯洋: 41.9, 蔣萬安: 50.7}
+    undecided: null
+    note: 網路問卷，非電話隨機抽樣
+    source: S022
+  - published: null
+    fieldwork: 2026-10-31
+    pollster: TVBS民調中心
+    sponsor: TVBS
+    sponsor_type: 媒體
+    method: 市話後四碼隨機抽樣，人員電訪
+    sample: 1747
+    moe: 2.3
+    results: {沈伯洋: 42, 蔣萬安: 46}
+    undecided: 12
+    note: 母數為有投票意願者；辯論當天下午調查
+    source: S020
+  - published: null
+    fieldwork: 2026-10-20 ~ 2026-10-25
+    pollster: 聯合報系民意調查中心
+    sponsor: 聯合報
+    sponsor_type: 媒體
+    method: 市話＋手機雙底冊尾數隨機抽樣
+    sample: 1115
+    moe: 3.0
+    results: {沈伯洋: 45, 蔣萬安: 41}
+    undecided: null
+    note: 調查日為 10/20–22 及 10/25；差距在抽樣誤差內
+    source: S021
+  - published: 2026-10-20
+    fieldwork: 2026-10-14 ~ 2026-10-16
+    pollster: 畢肯市場研究
+    sponsor: 台北市信民兩岸研究協會
+    sponsor_type: 民間團體
+    method: 電訪（市話 753、手機 322）
+    sample: 1075
+    moe: 3.0
+    results: {沈伯洋: 50.3, 蔣萬安: 33.3}
+    undecided: null
+    note: null
+    source: [S023, S024]

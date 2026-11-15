@@ -1,0 +1,15 @@
+# wiki/polls/<city-id>.yaml — 只放數字，不寫評論。封關期間（11/18–11/28 16:00）不得新增。
+city: CITY-ID
+polls:
+  - published: YYYY-MM-DD       # 公布日；不確定填 null
+    fieldwork: YYYY-MM-DD ~ YYYY-MM-DD
+    pollster: 執行單位
+    sponsor: 委託單位
+    sponsor_type: 媒體           # 媒體 | 政黨或黨團 | 民間團體 | 學術
+    method: 調查方法             # 原文未載填 null
+    sample: 1000
+    moe: 3.0
+    results: {候選人A: 40.0, 候選人B: 35.0}   # 姓名須與縣市頁 candidates 完全相同
+    undecided: 25.0
+    note: 補充說明或 null
+    source: Sxxx                 # 或 [Sxxx, Syyy]

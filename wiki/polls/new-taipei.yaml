@@ -1,0 +1,50 @@
+city: new-taipei
+polls:
+  - published: 2026-11-05
+    fieldwork: null
+    pollster: 鏡新聞
+    sponsor: 鏡新聞
+    sponsor_type: 媒體
+    method: null
+    sample: null
+    moe: null
+    results: {蘇巧慧: 47.7, 李四川: 32.8}
+    undecided: 19.5
+    note: 報導未載調查期間、方法與樣本數
+    source: S031
+  - published: null
+    fieldwork: 2026-09-29 ~ 2026-10-03
+    pollster: TVBS民調中心
+    sponsor: 新北市議會國民黨團
+    sponsor_type: 政黨或黨團
+    method: null
+    sample: 1210
+    moe: 2.8
+    results: {蘇巧慧: null, 李四川: null}
+    undecided: null
+    note: 報導僅寫李四川領先 6.7 個百分點，未列各自支持度
+    source: S032
+  - published: null
+    fieldwork: 2026-08-24 ~ 2026-08-26
+    pollster: 年代民調中心
+    sponsor: 年代
+    sponsor_type: 媒體
+    method: 電腦輔助電話訪問（市話）
+    sample: 1070
+    moe: 3.0
+    results: {蘇巧慧: 37.8, 李四川: 32.2}
+    undecided: 26.0
+    note: 另有 4.0% 表示不投票或投廢票
+    source: S033
+  - published: 2026-03-25
+    fieldwork: null
+    pollster: ETtoday民調雲
+    sponsor: 東森民調雲股份有限公司
+    sponsor_type: 媒體
+    method: null
+    sample: null
+    moe: null
+    results: {蘇巧慧: 41.8, 李四川: 43.3}
+    undecided: 11.0
+    note: 藍白整合前的一對一情境；另有 3.8% 不投票或投廢票
+    source: S034

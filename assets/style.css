@@ -1,0 +1,99 @@
+/* 2026 縣市首長選舉資料庫 — 新聞整理風樣式
+   規則見 CLAUDE.md 第 6 節：顏色只在這裡定義，不使用政黨代表色。 */
+:root {
+  --paper: #f7f5f0;
+  --ink: #1c1c1c;
+  --ink-soft: #5b574f;
+  --rule: #d8d2c4;
+  --rule-strong: #1c1c1c;
+  --accent: #7a2e1d;      /* 只用於連結與小標籤，不代表任何政黨 */
+  --panel: #efebe2;
+  --bar: #9a958a;          /* 民調長條：所有候選人同色 */
+  --serif: "Noto Serif TC", "Songti TC", "PMingLiU", serif;
+  --sans: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  --w: 0%;
+}
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body { margin: 0 auto; max-width: 960px; padding: 0 20px 40px; color: var(--ink);
+       font-family: var(--sans); font-size: 16px; line-height: 1.75; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* 報頭 */
+.masthead { border-bottom: 3px double var(--rule-strong); padding-top: 14px; text-align: center; }
+.dateline { display: flex; justify-content: space-between; font-size: 13px; color: var(--ink-soft);
+            border-bottom: 1px solid var(--rule); padding-bottom: 6px; }
+.countdown { color: var(--accent); font-weight: 700; }
+.brand { display: block; font-family: var(--serif); font-weight: 900; font-size: clamp(28px, 5vw, 44px);
+         color: var(--ink); letter-spacing: .04em; margin: 14px 0 2px; }
+.brand:hover { text-decoration: none; }
+.tagline { margin: 0 0 10px; color: var(--ink-soft); font-size: 14px; letter-spacing: .1em; }
+nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 22px;
+      border-top: 1px solid var(--rule-strong); padding: 8px 0; font-size: 15px; }
+nav a { color: var(--ink); }
+nav a.on { color: var(--accent); font-weight: 700; border-bottom: 2px solid var(--accent); }
+
+/* 內文 */
+main { padding-top: 10px; }
+.page-title { font-family: var(--serif); font-weight: 900; font-size: 32px; line-height: 1.3;
+              margin: 22px 0 4px; border-bottom: 1px solid var(--rule); padding-bottom: 8px; }
+h2 { font-family: var(--serif); font-size: 22px; margin: 34px 0 10px; padding-top: 8px;
+     border-top: 2px solid var(--rule-strong); }
+h3 { font-family: var(--serif); font-size: 18px; margin: 0 0 6px; }
+.updated, .src, .muted { color: var(--ink-soft); font-size: 13px; }
+.meta { margin: 8px 0; }
+ul, ol { padding-left: 1.3em; }
+li { margin: 4px 0; }
+
+/* 標籤 */
+.party, .tag { display: inline-block; font-size: 12px; line-height: 1.6; padding: 0 7px;
+               border: 1px solid var(--ink-soft); border-radius: 2px; color: var(--ink-soft);
+               background: transparent; white-space: nowrap; }
+.tag { border-color: var(--accent); color: var(--accent); }
+sup.cite { font-size: 11px; margin-left: 2px; }
+sup.cite a { color: var(--ink-soft); }
+
+/* 表格 */
+.scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 15px; }
+caption { text-align: left; font-weight: 700; padding: 4px 0; }
+th { text-align: left; font-weight: 700; border-bottom: 2px solid var(--rule-strong); padding: 6px 8px; white-space: nowrap; }
+td { border-bottom: 1px solid var(--rule); padding: 7px 8px; vertical-align: top; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+td.note { font-size: 13px; color: var(--ink-soft); min-width: 160px; }
+table.polls td.num { position: relative; min-width: 72px; }
+.bar { display: block; height: 4px; width: var(--w); background: var(--bar); margin: 2px 0 4px auto; }
+
+/* 卡片 */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0;
+         border-top: 1px solid var(--rule-strong); margin: 18px 0; }
+.card { padding: 14px 16px 10px 0; border-bottom: 1px solid var(--rule); }
+.card p { margin: 4px 0; }
+
+/* 候選人頁 */
+.cand-head { display: flex; gap: 18px; align-items: center; margin: 10px 0 4px; }
+.ballot { font-family: var(--serif); font-weight: 900; font-size: 56px; line-height: 1;
+          width: 84px; height: 84px; display: flex; align-items: center; justify-content: center;
+          border: 2px solid var(--rule-strong); }
+.peers { border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 30px; }
+
+/* 資訊框 */
+.callout { background: var(--panel); border-left: 4px solid var(--ink-soft); padding: 10px 14px; margin: 16px 0; }
+.callout.warning { border-left-color: var(--accent); }
+.callout-title { font-weight: 700; margin: 0 0 4px; }
+.callout p { margin: 0; }
+.result { background: var(--panel); padding: 4px 16px 10px; }
+
+/* 本頁來源與頁尾 */
+.page-sources { margin-top: 40px; font-size: 13px; color: var(--ink-soft); }
+.page-sources h2 { font-size: 16px; }
+footer { margin-top: 50px; border-top: 3px double var(--rule-strong); padding-top: 10px;
+         font-size: 13px; color: var(--ink-soft); text-align: center; }
+footer a { margin: 0 8px; }
+
+@media (max-width: 600px) {
+  .dateline { flex-direction: column; gap: 2px; }
+  .page-title { font-size: 26px; }
+  .ballot { width: 64px; height: 64px; font-size: 40px; }
+}

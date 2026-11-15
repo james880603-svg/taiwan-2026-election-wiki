@@ -1,0 +1,26 @@
+city: taoyuan
+polls:
+  - published: 2026-11-10
+    fieldwork: 2026-11-04 ~ 2026-11-06
+    pollster: 畢肯市場研究
+    sponsor: 台北市信民兩岸研究協會
+    sponsor_type: 民間團體
+    method: 電腦輔助電話訪問（市話 751、手機 323）
+    sample: 1074
+    moe: 3.0
+    results: {黃世杰: 32.8, 張善政: 36.9}
+    undecided: null
+    note: null
+    source: S040
+  - published: 2025-12-15
+    fieldwork: 2025-12-05 ~ 2025-12-12
+    pollster: TVBS民調中心
+    sponsor: TVBS
+    sponsor_type: 媒體
+    method: 市話後四碼隨機抽樣，人員電訪
+    sample: 953
+    moe: 3.2
+    results: {黃世杰: 19, 張善政: 61}
+    undecided: 21
+    note: 民進黨提名前的假設性對比
+    source: S041

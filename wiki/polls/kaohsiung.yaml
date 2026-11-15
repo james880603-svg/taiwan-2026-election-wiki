@@ -1,0 +1,38 @@
+city: kaohsiung
+polls:
+  - published: null
+    fieldwork: 2026-10-28 ~ 2026-10-31
+    pollster: 聯合報系民意調查中心
+    sponsor: 聯合報
+    sponsor_type: 媒體
+    method: null
+    sample: null
+    moe: null
+    results: {柯志恩: 33, 賴瑞隆: 40}
+    undecided: null
+    note: 依二手整理報導，樣本數待補
+    source: S070
+  - published: null
+    fieldwork: 2026-10-20 ~ 2026-10-25
+    pollster: ETtoday民調雲
+    sponsor: 東森民調雲股份有限公司
+    sponsor_type: 媒體
+    method: null
+    sample: null
+    moe: null
+    results: {柯志恩: 43.1, 賴瑞隆: 43.2}
+    undecided: null
+    note: 依二手整理報導，樣本數待補
+    source: S070
+  - published: null
+    fieldwork: 2026-10-16 ~ 2026-10-21
+    pollster: 鋒燦傳媒
+    sponsor: 鋒燦傳媒
+    sponsor_type: 媒體
+    method: null
+    sample: null
+    moe: null
+    results: {柯志恩: 27.4, 賴瑞隆: 47.8}
+    undecided: null
+    note: 依二手整理報導，樣本數待補
+    source: S070

@@ -1,0 +1,26 @@
+city: tainan
+polls:
+  - published: 2026-10-21
+    fieldwork: null
+    pollster: 新台灣國策智庫
+    sponsor: 新台灣國策智庫
+    sponsor_type: 民間團體
+    method: null
+    sample: null
+    moe: 2.98
+    results: {蕭燐洪: 0.1, 謝龍介: 22.6, 陳亭妃: 59.4, 葉人文: 0.9}
+    undecided: 17.0
+    note: 報導未載調查期間與樣本數
+    source: [S060, S061]
+  - published: 2025-11-24
+    fieldwork: 2025-11-17 ~ 2025-11-20
+    pollster: TVBS民調中心
+    sponsor: TVBS
+    sponsor_type: 媒體
+    method: 市話後四碼隨機抽樣，人員電訪
+    sample: 1013
+    moe: 3.1
+    results: {蕭燐洪: null, 謝龍介: 34, 陳亭妃: 47, 葉人文: null}
+    undecided: 19
+    note: 民進黨初選前的假設性對比
+    source: S062

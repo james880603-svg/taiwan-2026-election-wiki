@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>關於本站｜2026 縣市首長選舉資料庫</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@600;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="dateline"><span>建置日期 2026-11-15</span><span>投票日 2026-11-28（六）</span><span class="countdown">距投票日 13 天</span></div>
+  <a class="brand" href="index.html">2026 縣市首長選舉資料庫</a>
+  <p class="tagline">22 縣市候選人．政見．民調．歷屆結果　中立整理</p>
+  <nav><a href="index.html">首頁</a><a href="overview.html">全國總覽</a><a href="six.html">六都</a><a href="polls.html">民調</a><a href="syntheses.html">議題比較</a><a href="sources.html">來源</a><a href="about.html" class="on">關於本站</a></nav>
+</header>
+<main>
+<h1 class="page-title">關於本站</h1>
+<p class="updated">本頁更新：2026-11-15</p>
+<h2>這是什麼</h2>
+<p>一個由 AI 依照固定規則維護的選舉資料庫。架構參考 Andrej Karpathy 提出的「LLM Wiki」模式：原始來源（<code>raw/</code>）→ AI 維護的知識庫（<code>wiki/</code>）→ 規則檔（<code>CLAUDE.md</code>），再由 <code>build.py</code> 轉成本網站。</p>
+<h2>編輯原則</h2>
+<ol>
+<li>候選人一律依中選會號次排列。</li>
+<li>同一縣市主要候選人使用相同章節，政見條數相差不超過 1 條。</li>
+<li>只收錄候選人本人或競選團隊提出的主張，不收錄攻擊與評論。</li>
+<li>第三方評比整組並列，包含未回應者。</li>
+<li>不預測勝負，不使用政黨代表色。</li>
+<li>每個事實都附來源編號；官方資訊以中選會為準。</li>
+<li>民調依公職人員選舉罷免法第 53 條，於 2026-11-18 00:00 至 11-28 16:00 隱藏 <sup class="cite"><a href="sources.html#S008" title="憲法法庭（內政部意見書）｜公職人員選舉罷免法第53條第2項立法理由">S008</a></sup>。</li>
+</ol>
+<h2>誰是「主要候選人」</h2>
+<p>政黨推薦，且出現在本站收錄的任一份民調中。其他候選人在縣市頁列出號次、政黨與簡歷。</p>
+<h2>限制</h2>
+<ul>
+<li>本站不儲存新聞全文，只記錄來源連結與自行改寫的重點。</li>
+<li>資料截至頁面標示的更新日期；請以中選會公告為準。</li>
+<li>這是課程作業專案，不代表任何政黨或候選人。</li>
+</ul>
+<section class="page-sources"><h2>本頁來源</h2><ol><li><a href="sources.html#S008">S008</a>　憲法法庭（內政部意見書）｜公職人員選舉罷免法第53條第2項立法理由</li></ol></section>
+</main>
+<footer>
+  <p>資料截至各頁標示之更新日期；候選人名單、號次與開票結果以中央選舉委員會公告為準。本站不代表任何政黨或候選人。</p>
+  <p><a href="open-questions.html">待查清單</a>　<a href="log.html">更新日誌</a>　<a href="about.html">編輯原則</a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,50 @@
+city: taichung
+polls:
+  - published: 2026-11-03
+    fieldwork: 2026-10-28 ~ 2026-10-30
+    pollster: 畢肯市場研究
+    sponsor: 台北市信民兩岸研究協會
+    sponsor_type: 民間團體
+    method: 電訪（市話 752、手機 325）
+    sample: 1077
+    moe: 3.0
+    results: {何欣純: 41.1, 洪麗華: 0.7, 江啟臣: 30.4}
+    undecided: 20.8
+    note: 另有 7.0% 不投票或投廢票
+    source: [S050, S051]
+  - published: 2026-11-02
+    fieldwork: null
+    pollster: 佛光大學民調中心
+    sponsor: 臺中市議會國民黨團
+    sponsor_type: 政黨或黨團
+    method: null
+    sample: null
+    moe: null
+    results: {何欣純: 28.1, 洪麗華: 0.5, 江啟臣: 38.3}
+    undecided: null
+    note: 報導未載調查期間與樣本數
+    source: S052
+  - published: 2026-10-17
+    fieldwork: null
+    pollster: 世新大學民意調查中心
+    sponsor: 臺中市議會國民黨團
+    sponsor_type: 政黨或黨團
+    method: null
+    sample: null
+    moe: null
+    results: {何欣純: 28.7, 洪麗華: null, 江啟臣: 39.8}
+    undecided: null
+    note: 報導未載調查期間與樣本數
+    source: S051
+  - published: 2026-10-12
+    fieldwork: 2026-10-05 ~ 2026-10-06
+    pollster: 循證民調公司
+    sponsor: 台中市信賴台灣之友會
+    sponsor_type: 民間團體
+    method: null
+    sample: null
+    moe: null
+    results: {何欣純: 32.4, 洪麗華: null, 江啟臣: 34.3}
+    undecided: null
+    note: 報導未載樣本數
+    source: S051
